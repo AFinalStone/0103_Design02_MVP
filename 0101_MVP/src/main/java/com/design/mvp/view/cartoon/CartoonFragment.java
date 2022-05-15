@@ -23,7 +23,7 @@ public class CartoonFragment extends BaseFragment<CartoonFragmentContract.Presen
 
     private RecyclerView mRvList;
     private CartoonListAdapter mAdapter;
-    private String mTitle = "咒术回战";
+    private String mTitle = "动漫列表";
 
     @Override
     protected int getLayoutId() {

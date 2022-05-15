@@ -19,6 +19,13 @@ public class EmptyFragment extends BaseFragment {
     }
 
     @Override
+    public CharSequence getPageTitle() {
+        Bundle bundle = getArguments();
+        String name = bundle.getString("name");
+        return name;
+    }
+
+    @Override
     protected int getLayoutId() {
         return R.layout.activity_fragment_empty;
     }
