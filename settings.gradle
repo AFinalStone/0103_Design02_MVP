@@ -1,0 +1,2 @@
+rootProject.name = "Android0802_Design_MVP"
+include ':0101_MVP'
