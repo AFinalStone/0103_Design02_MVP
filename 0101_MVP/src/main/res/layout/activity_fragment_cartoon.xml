@@ -4,17 +4,12 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal">
 
-    <View
-        android:id="@+id/view_status"
-        android:layout_width="match_parent"
-        android:layout_height="24dp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_list"
         style="@style/UikitRecyclerViewStyle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/view_status" />
+        android:layout_height="match_parent" />
 
     <TextView
         android:id="@+id/tv_content"
